@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My first webpage</title>
+    <style> 
+    *{
+        margin: 0;
+        padding: 0px;
+    }
+    .container{
+        background-color: olivedrab;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 2em;
+    }
+    
+    .self{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px ;
+        }  
+    .spic{
+        padding: 10px 10px;
+        flex-basis: 20%;
+    }
+    .ctext{
+        text-align: right;
+    }
+    .city{
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .cityc{
+        text-align: left;
+        padding-bottom: 20px;
+    }
+    .cityall{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        align-content: flex-end;
+        padding-bottom: 20px;
+    }
+    .flang{
+        clear: left;
+        text-align: left;
+        
+    }
+    .lan{
+        text-align: center;
+    }
+    table, th, tr, td{
+        border: 1px solid black;
+        border-collapse: collapse;
+        text-align: left;
+    }
+    table.t{
+        width: 100%;
+    }
+    .histplace{
+        padding-top: 20px;
+    }
+    .lan{
+        padding-bottom: 20px;
+    }
+    .ctext img{
+      float: left;
+      width: 80%;
+      height: auto;
+      padding-right: 10px;
+      padding-bottom: 10px;
+    }
+    .content{
+        display: flex;
+        flex-flow: nowrap;
+        justify-content: center;
+        padding-top: 20px;
+        /*align-self: auto;*/
+    }
+    .box1{
+        display: flex;
+        padding-left: 10px;
+    }
+    .iziko{
+        display: flex;
+        padding-right: 3px;
+    }
+    .chall{
+        display: flex;
+    }
+    .lostreet{
+        display: flex;
+    }
+    .place img{
+        float: right;
+        width: 50%;
+    }
+    .lodge{
+        padding-left: 5%;
+    }
+    @media screen and (max-width:425px){
+        .content{
+            flex-flow: column;
+        }
+    }
+
+    @media screen and (min-width: 425px) and (max-width:720px){
+        .content{
+            flex-flow: column;
+        }
+        
+    .ctext img{
+      width: 80%;
+      height: auto;
+    }
+    }
+    
+           
+    </style>
+</head>
+
+    <div class="container" >
+            <div class="self">
+                <div>
+                    <h2>Ongezwa Felele</h2>
+                </div>
+                <div class="spic">
+                    <img srcset="Screenshot_20210323-104501-1.jpg" alt="Table Mountain" width="150" height="150">
+                </div>                 
+                
+            </div>
+            <!--<div class="city">-->
+        
+                    <div class="cityc"><h2>Which City</h2> </div>
+                    <!--<div class="cityall">-->
+                     <div class="ctext"> 
+                        <img src="MG_1_1_New_York_City-1.jpg" alt="New York" class="citypic" width="240" height="240">  
+                            <p> I would like to visit <b>New York City</b> mostly because it has been described
+                            as the cultural, financial and media capital of the world. Significantly
+                            it influences commerce, entertainment, research, technology and education. 
+                            New York is an important centre of international diplomacy. 
+                        </p>
+                    </div>
+        
+<div class="flang">
+    <div class="language">
+     <div class="flan"><h2>FOREIGN LANGUAGE</h2></div>
+
+        <div class="lan">  <p>One language that i would like to speak is French because it is 
+                         one of <br>the most diverse languages in the world and it is spoken
+                         and <br>understood by over 125 million people around the world.<br> It is also
+                         one of the six main languages of the United Nation.</p> </div>
+        <table class="foreign">
+
+            <tr>
+                <th>ENGLISH PHRASE</th>
+                <th>FRENCH PHASE</th>
+            </tr>
+            <tr>
+            <td>Good morning everyone</td>
+            <td>Bonjour tout le monde</td>
+            </tr>
+            <tr>
+                <td>How was your day</td>
+                <td>Comment sest passee to journee</td>
+            </tr>
+            <tr>
+                <td>How old are you</td>
+                <td>Quel age as-tu</td>
+            </tr>
+            
+
+        </table>
+
+        
+            </div>
+        </div>
+    
+              
+    <div class="histplace">
+    <h2>Historical Places in CapeTown</h2>
+    </div>
+        <div class="content">
+                
+                
+           <!--<div class="hiplace">-->         <!-- <h2>Historical Places in CapeTown</h2> -->
+                    <!--<div class="box1">-->
+                        <div class="place">
+                            <img class="lodge"src="Iziko lodge.jpg" alt="Iziko Slave lodge">
+                            <h3>IZIKO SLAVE LODGE</h3>
+                            
+                            <p>The slave lodge is one of the oldest buildings in CapeTown.
+                            The building has answered to many names in the last three centuries,namely: Slave lodge.
+                            Government Office building, old Supreme court,and SA cultural history museum.
+                            All these names reflect the long and rich history of the building.</p>
+                        </div> 
+                    
+                    
+                   <!---- </div>-->
+                
+            <!--<div class="hall">-->
+                <!--<div class="box1">-->
+                <div class="place">
+                    <h3>CITY HALL</h3>
+                          <img src="IMG-20210329-WA0017.jpg" alt="City Hall">
+                        <p>The Hall itself is made up of components from all over the world.
+                          The honey-coloured stone which makes up its 
+                          facade of limestone was importfrom Bath in England. 
+                          The lower a clock and number of bells modelled on the famous Big Ben.
+                          The clocks strikes the hours and chimes the westminister quarters 
+                          which is a particular chime originated from St Mary's cathedral in England.
+                          The faces of the clock are made from four skeleton iron dials filled with opal.
+                          Originally built to house the City of CapeTown's offices. 
+                          It now plays the host to a number of cultural and artistic events.</p>
+                    </div>
+
+            <!--<div class="long">-->
+               <!---- <div class="box1">-->
+                <div class="place">
+                    <h3>LONG STREET</h3>
+                    <img src="IMG-20210329-WA0022.jpg" alt="longStreet" width="150" height="150">
+                    <p>It is the major street located in the city bowl section of CapeTown South Africa.
+                    It is famous as a bohamain hangout an dthe street is lined with many book stores,
+                    various ethnic resturants and bars. Resturants includes African resturant such as Zula
+                    an dIndian resturant such as Masala Dosa. Long Street exhibits a divesified culture
+                    and attracts tourists from all over the world. It also has the number of youth
+                    hotels which provides accomodation to an international rooster of guests. Several
+                    theatres which shows anti-apartheid plays were located on the street 
+                    during the 1970's.</p>
+            </div>
+        </div>
+ 
+    </div>
+        
+
+    
+    <!-- <div class="main clearfix"  content here      
+    </div> -->
+    
+    
+</body>
+</html>
