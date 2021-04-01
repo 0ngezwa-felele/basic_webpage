@@ -61,11 +61,11 @@
         border: 1px solid black;
         border-collapse: collapse;
         text-align: center;
-        width: 70em;
-        display: flex;
+        /*width: 70%;*/
+        /*display: flex;*/
     }
-    table.t{
-        width: 100%;
+    table{
+        width: 90%;
     }
     .histplace{
         padding-top: 20px;
@@ -77,7 +77,7 @@
     }
     .ctext img{
       float: left;
-      width: 80%;
+      width: 25%;
       height: auto;
       padding-right: 10px;
       padding-bottom: 10px;
@@ -103,12 +103,26 @@
     .lostreet{
         display: flex; 
     }
-    .place img{
+    .place2 img{
         float: right;
         width: 50%;
+        padding-right: 3em;
+    }
+    .place3 img{
+        width: 40%; 
+        float: right;
+        padding-right: 3%;
+        padding-top: 3%;
+    }
+    .place1 img{
+        width: 40%; 
+        float: right;
+        padding-right: 3%;
+        padding-top: 3%;
     }
     .place{
-    padding-right: 2em;
+        padding-right: 3em;
+
     }
     .lodge{
         padding-left: 5%;
@@ -116,21 +130,43 @@
     @media screen and (max-width:425px){
         .content{
             flex-flow: column;
-        }
+        }  
     }
+    
 
     @media screen and (min-width: 425px) and (max-width:720px){
         .content{
             flex-flow: column;
+        
+        }
+       
+        .place3 img{
+            width: 40%;
+            float: right;
+            padding: 3em;
+
+        }
+    }
+    .place2 img{
+        width: 50%;
+        float: right ;
+        padding: 1em;
+        padding-bottom: 1em;
+    }
+    .place1 img{
+        width: 40%; 
+        float: right;
+        padding-right: 3%;
+       
+
         }
         
     .ctext img{
-      width: 80%;
+      width: 25%;
       height: auto;
     }
-    }
+
     
-           
     </style>
 </head>
 
@@ -140,7 +176,7 @@
                     <h2>Ongezwa Felele</h2>
                 </div>
                 <div class="spic">
-                    <img srcset="Screenshot_20210323-104501-1.jpg" alt="Table Mountain" width="90%" height="90%">
+                    <img srcset="./images/Screenshot_20210323-104501-1.jpg" alt="Table Mountain" width="90%" height="90%">
                 </div>                 
                 
             </div>
@@ -149,7 +185,7 @@
                     <div class="cityc"><h2>Which City</h2> </div>
                     <!--<div class="cityall">-->
                      <div class="ctext"> 
-                        <img src="MG_1_1_New_York_City-1.jpg" alt="New York" width="150" height="150">  
+                        <img src="./images/MG_1_1_New_York_City-1.jpg" alt="New York">  
                             <p> I would like to visit <b>New York City</b> mostly because it has been described
                             as the cultural, financial and media capital of the world. Significantly
                             it influences commerce, entertainment, research, technology and education. 
@@ -200,14 +236,20 @@
                 
            <!--<div class="hiplace">-->         <!-- <h2>Historical Places in CapeTown</h2> -->
                     <!--<div class="box1">-->
-                        <div class="place">
-                            <img src="IMG-20210329-WA0023.jpg" alt="Iziko Slave lodge">
+                        <div class="place1">
+                            <img src="./images/Iziko lodge.jpg" alt="Iziko Slave lodge">
                             <h3>IZIKO SLAVE LODGE</h3>
                             
                             <p>The slave lodge is one of the oldest buildings in CapeTown.
                             The building has answered to many names in the last three centuries,namely: Slave lodge.
                             Government Office building, old Supreme court,and SA cultural history museum.
-                            All these names reflect the long and rich history of the building.</p>
+                            All these names reflect the long and rich history of the building.
+                            In 1998 this museum was renamed the Slave Lodge. Under the umbrella theme, 
+                            ‘From human wrongs to human rights”. Exhibitions on the lower level of this museum explore the long 
+                            history of slavery in South Africa. Through our changing, temporary exhibitions we address issues around
+                            and we raise human rights awareness.
+                            The upper level galleries as well as other spaces in the museum will be renewed in the coming years.
+                        </p>
                         </div> 
                     
                     
@@ -215,9 +257,9 @@
                 
             <!--<div class="hall">-->
                 <!--<div class="box1">-->
-                <div class="place">
+                <div class="place2">
                     <h3>CITY HALL</h3>
-                          <img src="IMG-20210329-WA0017.jpg" alt="City Hall">
+                          <img src="./images/City hall.jpg" alt="City Hall">
                         <p>The Hall itself is made up of components from all over the world.
                           The honey-coloured stone which makes up its 
                           facade of limestone was importfrom Bath in England. 
@@ -231,9 +273,9 @@
 
             <!--<div class="long">-->
                <!---- <div class="box1">-->
-                <div class="place">
+                <div class="place3">
                     <h3>LONG STREET</h3>
-                    <img src="IMG-20210329-WA0022.jpg" alt="longStreet">
+                    <img src="./images/Long Street.jpg" alt="longStreet">
                     <p>It is the major street located in the city bowl section of CapeTown South Africa.
                     It is famous as a bohamain hangout an dthe street is lined with many book stores,
                     various ethnic resturants and bars. Resturants includes African resturant such as Zula

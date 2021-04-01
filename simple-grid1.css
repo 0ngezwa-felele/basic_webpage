@@ -1,0 +1,71 @@
+
+table, th, tr, td{
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+  width: 50%;
+}
+.self img{
+  width: 80%;
+  height: 5%;
+}
+
+.city img{
+  float: left;
+  width: 40%;
+  height: auto;
+  padding: 1em;
+}
+.language p, table{
+  width: 80%;
+}
+@media (min-width:992px){
+  .places img{
+    float: right;
+    width: 70%;
+    padding: 1em;
+  }
+}
+@media only screen and (max-width:992px) {
+  .places{
+    display: flex;
+    flex-direction: column;
+  }
+  .lodge img{
+    float: right;
+    width: 50%;
+    padding: 1em;
+  }
+  .hall img{
+    float: left;
+    width: 50%;
+    padding: 1em;
+  }
+  .street img{
+    float: right;
+    width: 50%;
+    padding: 1em;
+  }
+  .street {
+    
+    width: 100%;
+    
+  }
+
+  .lodge {
+    
+    width: 100%;
+    
+  }
+  .hall {
+    
+    width: 100%;
+    
+  } 
+
+}
+@media only screen and (max-width:688px) {
+  .city img{
+    width: 90%;
+  }
+}
