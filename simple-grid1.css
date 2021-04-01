@@ -6,13 +6,13 @@ table, th, tr, td{
   width: 50%;
 }
 .self img{
-  width: 80%;
+  width: 50%;
   height: 5%;
 }
 
 .city img{
   float: left;
-  width: 40%;
+  width: 30%;
   height: auto;
   padding: 1em;
 }
