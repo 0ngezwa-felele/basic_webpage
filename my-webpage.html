@@ -14,7 +14,7 @@
         background-color:lemonchiffon;
         font-family: Arial, Helvetica, sans-serif;
         padding: 2em;
-        background-image: url(/images/background2.jpg);
+        background-image: url(./images/background2.jpg);
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -33,7 +33,6 @@
     }
     .ctext{
         text-align: center;
-        /* padding-top: 5em; */
     }
     .city{
         text-align: center;
@@ -79,7 +78,9 @@
     .histplace{
         padding-top: 20px;
         text-align: center;
-        padding-top: 5em;
+        /* padding-top: 5em; */
+        /* margin-left: auto; */
+        /* margin-right: auto; */
     }
     .lan{
         padding-bottom: 20px;
@@ -99,74 +100,84 @@
         padding-top: 20px;
         /*align-self: auto;*/
         padding-top: 5em;
-        padd
     }
     .box1{
         display: flex;
-        padding-left: 10px;
+        /* padding: left 10px; */
     }
     .iziko{
         display: flex;
-        padding-right: 3px;
+        padding-left:3em;
+
     }
     .chall{
         display: flex;
+        padding:2em;
     }
     .lostreet{
-        display: flex; 
+        display: flex;
+        padding-right:4em; 
     }
     .place2 img{
         float: right;
-        width: 50%;
-        padding-right: 4em;
+        width: 45%;
+        padding-right: 2em;
     }
     .place3 img{
-        width: 40%; 
+        width: 50%; 
         float: right;
-        padding-right: 4%;
-        padding-top: 3%;
+        padding: 1em;
+        /* padding-top: 3%; */
     }
     .place1 img{
-        width: 40%; 
+        width: 55%; 
         float: right;
-        padding-right: 4%;
+        padding-right:2em;
+        padding-left: 5px;
         padding-top: 3%;
+        padding-bottom: 2px;
     }
     .place{
         padding-right: 3em;
 
     }
-    .lodge{
-        padding-left: 5%;
-    }
+    /* .lodge{ */
+        /* padding-left: 5%; */
+    
     @media screen and (max-width:425px){
         .content{
             flex-flow: column;
-        }  
+            line-height: 1.5;
+        }
+        .place2 img {
+            float: left;
+        } 
     }
     
 
     @media screen  and (min-width: 425px) and (max-width:720px){  
         .content{
-            flex-flow: column;
+            flex-direction: column;
         
         }
        
-        .place3 img{
+    .place3 img{
             width: 40%;
             float: right;
-            padding: 3em;
+            padding: 1em;
 
         }
-       .place2 img{
-        width: 50%;
+    .place2 img{
+        width: 30%;
         float: left ;
         padding: 1em;
+        padding-right: 2em;
         padding-bottom: 1em;
     }
-       .place1 img{
+    .place1 img{
         width: 40%; 
         float: right;
+        padding: 1em;
         padding-right: 3%;
        
 
@@ -176,7 +187,15 @@
       width: 25%;
       height: auto;
     }
-
+    .iziko{
+        width: 100%;
+    }
+    .chall{
+        width: 100%;
+    }
+    .lostreet{
+        width: 100%;
+    }
     }
     
     
@@ -255,14 +274,11 @@
                             
                             <p>The slave lodge is one of the oldest buildings in CapeTown.
                             The building has answered to many names in the last three centuries,namely: Slave lodge.
-                            Government Office building, old Supreme court,and SA cultural history museum.
-                            All these names reflect the long and rich history of the building.
-                            In 1998 this museum was renamed the Slave Lodge. Under the umbrella theme, 
-                            ‘From human wrongs to human rights”. Exhibitions on the lower level of this museum explore the long 
-                            history of slavery in South Africa. Through our changing, temporary exhibitions we address issues around
-                            and we raise human rights awareness.
-                            The upper level galleries as well as other spaces in the museum will be renewed in the coming years.
-                        </p>
+                            Government Office building,<br> old Supreme court,and SA cultural history museum.
+                            All these names reflect the long and rich <br>history of the building.
+                            In 1998 this museum was renamed the Slave Lodge. <br>Under the umbrella theme, 
+                            ‘From human wrongs to human rights”.<br> Exhibitions on the lower level of this museum <br>explore the long 
+                            history of slavery in South Africa.</p>
                         </div> 
                     
                     
@@ -276,11 +292,11 @@
                         <p>The Hall itself is made up of components from all over the world.
                           The honey-coloured stone which makes up its 
                           facade of limestone was importfrom Bath in England. 
-                          The lower a clock and number of bells modelled on the famous Big Ben.
+                          The lower a clock and number of bells modelled on the famous Big Ben.<br>
                           The clocks strikes the hours and chimes the westminister quarters 
                           which is a particular chime originated from St Mary's cathedral in England.
-                          The faces of the clock are made from four skeleton iron dials filled with opal.
-                          Originally built to house the City of CapeTown's offices. 
+                          <br>The faces of the clock are made from four skeleton iron dials filled with opal.
+                          <br>Originally built to house the City of CapeTown's offices. 
                           It now plays the host to a number of cultural and artistic events.</p>
                     </div>
 
@@ -291,9 +307,9 @@
                     <img src="./images/Long Street.jpg" alt="longStreet">
                     <p>It is the major street located in the city bowl section of CapeTown South Africa.
                     It is famous as a bohamain hangout an dthe street is lined with many book stores,
-                    various ethnic resturants and bars. Resturants includes African resturant such as Zula
-                    an dIndian resturant such as Masala Dosa. Long Street exhibits a divesified culture
-                    and attracts tourists from all over the world. It also has the number of youth
+                    various ethnic resturants and bars. <br>Resturants includes African resturant such as Zula
+                    an Indian resturant such as Masala Dosa. Long Street exhibits a divesified culture
+                    and attracts tourists from all over the world. <br>It also has the number of youth
                     hotels which provides accomodation to an international rooster of guests. Several
                     theatres which shows anti-apartheid plays were located on the street 
                     during the 1970's.</p>
