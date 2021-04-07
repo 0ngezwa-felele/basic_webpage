@@ -6,7 +6,7 @@ table, th, tr, td{
   width: 50%;
 }
 .container{
-  background-image: url(/images/EM7N1E.jpg);
+  background-image: url(./images/EM7N1E.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
